@@ -26,7 +26,7 @@ let country;     // country
 ```
 
 ## Initializing a variable
-Once you've declared a variable, you can initialize it with a value. You do this by typing the variable name, followed by an equals sign (=), followed by the value you want to give it
+Once you've declared a variable, you can initialize it with a value. You do this by typing the variable name, followed by an equals sign - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `#f03c15`, followed by the value you want to give it
 
 **Example:**
 
