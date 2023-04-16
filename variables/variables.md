@@ -41,8 +41,8 @@ let country = 'India'       // country
 ```
 ## You can declare and initialize a variable at the same time, like this:
 ```js
-let firstName = 'Sathish'    // first name of a person
-let lastName = 'Sampath'      // last name of a person
+let firstName = 'Guha iyivariya'    // first name of a person
+let lastName = 'Kotti'      // last name of a person
 let country = 'India'       // country
 ```
 ## An aside on variable naming rules
