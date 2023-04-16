@@ -101,10 +101,10 @@ You can call a variable pretty much anything you like, but there are limitations
 - void
 - while
 - with
-#### The following are only reserved when they are found in strict mode code:
-- `let` (also reserved in `const`, `let`, and `class` declarations)
-- `static`
-- `yield` (also reserved in generator function bodies)
-#### The following are only reserved when they are found in module code or async function bodies:
+- #### The following are only reserved when they are found in strict mode code:
+    - `let` (also reserved in `const`, `let`, and `class` declarations)
+    - `static`
+    - `yield` (also reserved in generator function bodies)
+- #### The following are only reserved when they are found in module code or async function bodies:
 
-`await`
+    - `await`
