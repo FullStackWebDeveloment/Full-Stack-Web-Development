@@ -18,6 +18,7 @@
 ## What is a variable?
 
 A variable is a container for a value, like a number we might use in a sum, or a string that we might use as part of a sentence.
+
 **[⬆ Back to Top](#Variables)**
 
 ## Declaring a variable
@@ -88,6 +89,7 @@ You can call a variable pretty much anything you like, but there are limitations
 - Make variable names intuitive, so they describe the data they contain. Don't just use single letters/numbers, or big long phrases.
 - Variables are case sensitive — so `myname` is a different variable from `myName`.
   One last point: you also need to avoid using JavaScript reserved words as your variable names — by this, we mean the words that make up the actual syntax of JavaScript! So, you can't use words like `var`, `function`, `let`, and for as variable names. Browsers recognize them as different code items, and so you'll get errors.
+  
 **[⬆ Back to Top](#Variables)**
 
 ## Avoid using JavaScript reserved words as your variable names
