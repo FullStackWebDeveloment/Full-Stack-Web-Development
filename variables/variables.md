@@ -2,14 +2,16 @@
   <h1>JavaScript</h1>
 </div>
 
-[<< Day 1](../readMe.md) | [Day 3 >>](../03_Day_Booleans_operators_date/03_booleans_operators_date.md)
+[<< Introduction](../README.md) | [Data Types >>](../03_Day_Booleans_operators_date/03_booleans_operators_date.md)
 
 # Variables
 
 ### Storing the information you need — Variables
 
 - [What is a variable?](#What-is-a-variable?)
-- [Non-Primitive Data Types](#non-primitive-data-types)
+- [Declaring a variable](#Declaring-a-variable)
+- [Initializing a variable](#Initializing-a-variable)
+- [Initializing a variable](#Initializing-a-variable)
 
 ## What is a variable?
 
@@ -41,6 +43,17 @@ Once you've declared a variable, you can initialize it with a value. You do this
 ```js
 let firstName = "Sathish"; // first name of a person
 let lastName = "Sampath"; // last name of a person
+let country = "India"; // country
+```
+## Updating a variable
+
+Once a variable has been initialized with a value, you can change (or update) that value by giving it a different value. Try entering the following lines into your console:
+
+**Example:**
+
+```js
+let firstName = "Guha iyivariya"; // first name of a person
+let lastName = "Kotti"; // last name of a person
 let country = "India"; // country
 ```
 
