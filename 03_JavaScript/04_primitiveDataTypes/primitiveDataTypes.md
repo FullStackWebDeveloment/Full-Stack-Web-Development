@@ -2,29 +2,28 @@
   <h1>JavaScript</h1>
 </div>
 
-[<< Data Types](../03_dataTypes/dataTypes.md)| [Primitive Data Types>>](../04_primitiveDataTypes/primitiveDataTypes.md)
+[<< Data Types](../03_dataTypes/dataTypes.md)| [Non-Primitive Data Types>>](../05_nonPrimitiveDataTypes/nonPrimitiveDataTypes.md)
 
 # Primitive Data Types
 
 - [Numbers](#numbers)
-    - [Declaring Number Data Types](#declaring-number-data-types)
-    - [Math Object](#math-object)
-    - [Random Number Generator](#random-number-generator)
+  - [Declaring Number Data Types](#declaring-number-data-types)
+  - [Math Object](#math-object)
+  - [Random Number Generator](#random-number-generator)
 - [Strings](#strings)
-    - [String Concatenation](#string-concatenation)
-    - [Concatenating Using Addition Operator](#concatenating-using-addition-operator)
-    - [Long Literal Strings](#long-literal-strings)
-    - [Escape Sequences in Strings](#escape-sequences-in-strings)
-    - [Template Literals (Template Strings)](#template-literals-template-strings)
-    - [String Methods](#string-methods)
+  - [String Concatenation](#string-concatenation)
+  - [Concatenating Using Addition Operator](#concatenating-using-addition-operator)
+  - [Long Literal Strings](#long-literal-strings)
+  - [Escape Sequences in Strings](#escape-sequences-in-strings)
+  - [Template Literals (Template Strings)](#template-literals-template-strings)
+  - [String Methods](#string-methods)
 - [Booleans](#booleans)
-    - [Truthy values](#truthy-values)
-    - [Falsy values](#falsy-values)
+  - [Truthy values](#truthy-values)
+  - [Falsy values](#falsy-values)
 - [Symbol](#symbol)
 - [BigInt](#bigint)
 - [Undefined](#undefined)
 - [Null](#null)
-
 
 ## Numbers
 
@@ -45,6 +44,8 @@ const bodyTemp = 37; // oC average human body temperature, which is a constant
 
 console.log(age, gravity, mass, PI, boilingPoint, bodyTemp);
 ```
+
+**[⬆ Back to Top](#Primitive-Data-Types)**
 
 ### Math Object
 
@@ -108,6 +109,8 @@ Math.cos(0);
 Math.cos(60);
 ```
 
+**[⬆ Back to Top](#Primitive-Data-Types)**
+
 #### Random Number Generator
 
 The JavaScript Math Object has a random() method number generator which generates number from 0 to 0.999999999...
@@ -128,6 +131,8 @@ let randomNumRoundToFloor = Math.floor(numBtnZeroAndTen);
 console.log(randomNumRoundToFloor); // this gives between 0 and 10
 ```
 
+**[⬆ Back to Top](#Primitive-Data-Types)**
+
 ## Strings
 
 Strings are texts, which are under **_single_** , **_double_**, **_back-tick_** quote. To declare a string, we need a variable name, assignment operator, a value under a single quote, double quote, or backtick quote.
@@ -144,6 +149,8 @@ let job = "teacher";
 let quote = "The saying,'Seeing is Believing' is not correct in 2020.";
 let quotWithBackTick = `The saying,'Seeing is Believing' is not correct in 2020.`;
 ```
+
+**[⬆ Back to Top](#Primitive-Data-Types)**
 
 ### String Concatenation
 
@@ -186,6 +193,8 @@ console.log(personInfoOne);
 Sathish Sampath. I am 250. I live in India
 ```
 
+**[⬆ Back to Top](#Primitive-Data-Types)**
+
 #### Long Literal Strings
 
 A string could be a single character or paragraph or a page. If the string length is too big it does not fit in one line. We can use the backslash character (\\) at the end of each line to indicate that the string will continue on the next line.
@@ -204,6 +213,8 @@ I hope you are enjoying too.";
 
 console.log(paragraph);
 ```
+
+**[⬆ Back to Top](#Primitive-Data-Types)**
 
 #### Escape Sequences in Strings
 
@@ -245,6 +256,8 @@ In every programming language it starts with "Hello, World!"
 In every programming language it starts with 'Hello, World!'
 The saying 'Seeing is Believing' isn't correct in 2020
 ```
+
+**[⬆ Back to Top](#Primitive-Data-Types)**
 
 #### Template Literals (Template Strings)
 
@@ -299,6 +312,8 @@ console.log(`${a} is greater than ${b}: ${a > b}`);
 2 is greater than 3: false
 ```
 
+**[⬆ Back to Top](#Primitive-Data-Types)**
+
 ### String Methods
 
 Everything in JavaScript is an object. A string is a primitive data type that means we can not modify it once it is created. The string object has many string methods. There are different string methods that can help us to work with strings.
@@ -313,6 +328,8 @@ console.log(js.length); // 10
 let firstName = "Sathish";
 console.log(firstName.length); // 8
 ```
+
+**[⬆ Back to Top](#Primitive-Data-Types)**
 
 2. _Accessing characters in a string_: We can access each character in a string using its index. In programming, counting starts from 0. The first index of the string is zero, and the last index is the length of the string minus one.
 
@@ -338,6 +355,8 @@ console.log(lastIndex); // 9
 console.log(string[lastIndex]); // t
 ```
 
+**[⬆ Back to Top](#Primitive-Data-Types)**
+
 3. _toUpperCase()_: this method changes the string to uppercase letters.
 
 ```js
@@ -353,6 +372,8 @@ let country = "India";
 
 console.log(country.toUpperCase()); // INDIA
 ```
+
+**[⬆ Back to Top](#Primitive-Data-Types)**
 
 4. _toLowerCase()_: this method changes the string to lowercase letters.
 
@@ -370,6 +391,8 @@ let country = "India";
 console.log(country.toLowerCase()); // india
 ```
 
+**[⬆ Back to Top](#Primitive-Data-Types)**
+
 5. _substr()_: It takes two arguments, the starting index and number of characters to slice.
 
 ```js
@@ -380,6 +403,8 @@ let country = "India";
 console.log(country.substr(3, 4)); // ia
 ```
 
+**[⬆ Back to Top](#Primitive-Data-Types)**
+
 6. _substring()_: It takes two arguments, the starting index and the stopping index but it doesn't include the character at the stopping index.
 
 ```js
@@ -389,6 +414,8 @@ console.log(string.substring(0, 4)); // Java
 console.log(string.substring(4, 10)); // Script
 console.log(string.substring(4)); // Script
 ```
+
+**[⬆ Back to Top](#Primitive-Data-Types)**
 
 7. _split()_: The split method splits a string at a specified place.
 
@@ -408,6 +435,8 @@ let countries = "India, Sweden, Norway, Denmark, and Iceland";
 console.log(countries.split(",")); // split to any array at comma -> ["India", " Sweden", " Norway", " Denmark", " and Iceland"]
 console.log(countries.split(", ")); //  ["India", "Sweden", "Norway", "Denmark", "and Iceland"]
 ```
+
+**[⬆ Back to Top](#Primitive-Data-Types)**
 
 8. _trim()_: Removes trailing space in the beginning or the end of a string.
 
@@ -430,6 +459,8 @@ FullStack Web Development
 Sathish
 ```
 
+**[⬆ Back to Top](#Primitive-Data-Types)**
+
 9. _includes()_: It takes a substring argument and it checks if substring argument exists in the string. _includes()_ returns a boolean. If a substring exist in a string, it returns true, otherwise it returns false.
 
 ```js
@@ -448,6 +479,8 @@ console.log(country.includes("dia")); // true
 console.log(country.includes("Dia")); // false
 ```
 
+**[⬆ Back to Top](#Primitive-Data-Types)**
+
 10. _replace()_: takes as a parameter the old substring and a new substring.
 
 ```js
@@ -461,6 +494,8 @@ console.log(string.replace("Sathish", "Sampath")); // Sathish Sampath
 let country = "Finland";
 console.log(country.replace("Fin", "Noman")); // Nomanland
 ```
+
+**[⬆ Back to Top](#Primitive-Data-Types)**
 
 11. _charAt()_: Takes index and it returns the value at that index
 
@@ -476,6 +511,8 @@ let lastIndex = string.length - 1;
 console.log(string.charAt(lastIndex)); // t
 ```
 
+**[⬆ Back to Top](#Primitive-Data-Types)**
+
 12. _charCodeAt()_: Takes index and it returns char code (ASCII number) of the value at that index
 
 ```js
@@ -490,6 +527,8 @@ let lastIndex = string.length - 1;
 console.log(string.charCodeAt(lastIndex)); // t ASCII is 116
 ```
 
+**[⬆ Back to Top](#Primitive-Data-Types)**
+
 13. _indexOf()_: Takes a substring and if the substring exists in a string it returns the first position of the substring if does not exist it returns -1
 
 ```js
@@ -503,6 +542,8 @@ console.log(string.indexOf("l")); // 2
 console.log(string.indexOf("Web")); // 10
 console.log(string.indexOf("development")); // -1
 ```
+
+**[⬆ Back to Top](#Primitive-Data-Types)**
 
 14. _lastIndexOf()_: Takes a substring and if the substring exists in a string it returns the last position of the substring if it does not exist it returns -1
 
@@ -520,6 +561,8 @@ console.log(string.lastIndexOf("you")); // 63
 console.log(string.lastIndexOf("JavaScript")); // 38
 ```
 
+**[⬆ Back to Top](#Primitive-Data-Types)**
+
 15. _concat()_: it takes many substrings and joins them.
 
 ```js
@@ -533,6 +576,8 @@ console.log(string.concat("FullStack", "Web", "Development")); // FullStackWebDe
 let country = "In";
 console.log(country.concat("dia")); // India
 ```
+
+**[⬆ Back to Top](#Primitive-Data-Types)**
 
 16. _startsWith_: it takes a substring as an argument and it checks if the string starts with that specified substring. It returns a boolean(true or false).
 
@@ -555,6 +600,8 @@ console.log(country.startsWith("in")); // false
 console.log(country.startsWith("dia")); //  false
 ```
 
+**[⬆ Back to Top](#Primitive-Data-Types)**
+
 17. _endsWith_: it takes a substring as an argument and it checks if the string ends with that specified substring. It returns a boolean(true or false).
 
 ```js
@@ -575,6 +622,8 @@ console.log(country.endsWith("fin")); // false
 console.log(country.endsWith("Fin")); //  false
 ```
 
+**[⬆ Back to Top](#Primitive-Data-Types)**
+
 18. _search_: it takes a substring as an argument and it returns the index of the first match. The search value can be a string or a regular expression pattern.
 
 ```js
@@ -587,6 +636,8 @@ let string =
 console.log(string.search("love")); // 2
 console.log(string.search(/javascript/gi)); // 7
 ```
+
+**[⬆ Back to Top](#Primitive-Data-Types)**
 
 19. _match_: it takes a substring or regular expression pattern as an argument and it returns an array if there is match if not it returns null. Let us see how a regular expression pattern looks like. It starts with / sign and ends with / sign.
 
@@ -633,6 +684,8 @@ console.log(txt.match(regEx)); // ["2", "0", "2", "2","2", "0", "2", "3"]
 console.log(txt.match(/\d+/g)); // ["2022", "2023"]
 ```
 
+**[⬆ Back to Top](#Primitive-Data-Types)**
+
 20. _repeat()_: it takes a number as argument and it returns the repeated version of the string.
 
 ```js
@@ -643,6 +696,8 @@ string.repeat(n);
 let string = "love";
 console.log(string.repeat(10)); // lovelovelovelovelovelovelovelovelovelove
 ```
+
+**[⬆ Back to Top](#Primitive-Data-Types)**
 
 ## Booleans
 
@@ -679,6 +734,8 @@ We agreed that boolean values are either true or false.
 
 It is good to remember those truthy values and falsy values. In later section, we will use them with conditions to make decisions.
 
+**[⬆ Back to Top](#Primitive-Data-Types)**
+
 ## Symbol
 
 A Symbol is a unique and immutable primitive value and may be used as the key of an Object property (see below). In some programming languages, Symbols are called "atoms". The purpose of symbols is to create unique property keys that are guaranteed not to clash with keys from other code.
@@ -691,13 +748,15 @@ const mySymbol = Symbol("mySymbol");
 
 // Using the symbol as an object key
 const myObj = {
-  [mySymbol]: "This is the value for mySymbol key"
+  [mySymbol]: "This is the value for mySymbol key",
 };
 
 console.log(myObj[mySymbol]); // Output: "This is the value for mySymbol key"
-
 ```
-In this example, we create a new symbol named mySymbol and use it as a key in the myObj object. We can access the value associated with the mySymbol key using bracket notation ```myObj[mySymbol]```. Since symbols are unique, we can be sure that no other property in myObj accidentally shares the same key.
+
+In this example, we create a new symbol named mySymbol and use it as a key in the myObj object. We can access the value associated with the mySymbol key using bracket notation `myObj[mySymbol]`. Since symbols are unique, we can be sure that no other property in myObj accidentally shares the same key.
+
+**[⬆ Back to Top](#Primitive-Data-Types)**
 
 ## BigInt
 
@@ -706,8 +765,7 @@ The BigInt type is a numeric primitive in JavaScript that can represent integers
 A BigInt is created by appending n to the end of an integer or by calling the BigInt() function.
 
 ```js
-
-console.log(`Range  ${Number.MIN_SAFE_INTEGER} to ${Number.MAX_SAFE_INTEGER}`)//
+console.log(`Range  ${Number.MIN_SAFE_INTEGER} to ${Number.MAX_SAFE_INTEGER}`); //
 
 // BigInt
 const x = BigInt(Number.MAX_SAFE_INTEGER); // 9007199254740991n
@@ -715,9 +773,11 @@ x + 1n === x + 2n; // false because 9007199254740992n and 9007199254740993n are 
 
 // Number
 Number.MAX_SAFE_INTEGER + 1 === Number.MAX_SAFE_INTEGER + 2; // true because both are 9007199254740992
-
 ```
-You can use most operators to work with BigInts, including ```+, *, -, **,``` and```` % — ``` the only forbidden one is ```>>>```. A BigInt is not strictly equal to a Number with the same mathematical value, but it is loosely so.
+
+You can use most operators to work with BigInts, including `+, *, -, **,` and``% —` the only forbidden one is `>>>`. A BigInt is not strictly equal to a Number with the same mathematical value, but it is loosely so.
+
+**[⬆ Back to Top](#Primitive-Data-Types)**
 
 ## Undefined
 
@@ -728,9 +788,13 @@ let firstName;
 console.log(firstName); //not defined, because it is not assigned to a value yet
 ```
 
+**[⬆ Back to Top](#Primitive-Data-Types)**
+
 ## Null
 
 ```js
 let empty = null;
 console.log(empty); // -> null , means no value
 ```
+
+**[⬆ Back to Top](#Primitive-Data-Types)**

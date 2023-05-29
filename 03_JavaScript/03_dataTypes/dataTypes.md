@@ -50,6 +50,7 @@ Non-primitive data types in JavaScript includes:
 1. Objects
 2. Arrays
 
+**[⬆ Back to Top](#Data-Types)**
 ### Now, let us see what exactly primitive and non-primitive data types mean.
 
 _Primitive_ data types are immutable(non-modifiable) data types. Once a primitive data type is created we cannot modify it.
@@ -85,7 +86,7 @@ let lightOff = false;
 
 console.log(lightOn == lightOff); // false
 ```
-
+**[⬆ Back to Top](#Data-Types)**
 ### Non-Primitive Data Types
 
 _Non-primitive_ data types are modifiable or mutable. We can modify the value of non-primitive data types after it gets created.
@@ -143,6 +144,7 @@ console.log(userOne == userTwo); // true
 
 If you have a hard time understanding the difference between primitive data types and non-primitive data types, you are not the only one. Calm down and just go to the next section and try to come back after some time.
 
+**[⬆ Back to Top](#Data-Types)**
 
 ## Checking Data Types and Casting
 
