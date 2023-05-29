@@ -2,7 +2,7 @@
   <h1>JavaScript</h1>
 </div>
 
-[<<Primitive Data Types](../04_primitiveDataTypes/primitiveDataTypes.md)| [Operators>>](..06_operators/operators.md)
+[<<Primitive Data Types](../04_primitiveDataTypes/primitiveDataTypes.md)| [Operators>>](../06_operators/operators.md)
 
 # Non-Primitive Data Types
 
