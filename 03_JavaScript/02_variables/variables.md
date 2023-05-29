@@ -2,7 +2,7 @@
   <h1>JavaScript</h1>
 </div>
 
-[<< Introduction](../README.md) | [Data Types >>](../dataTypes/dataTypes.md)
+[<< Introduction](../README.md) | [Data Types >>](../03_dataTypes/dataTypes.md)
 
 # Variables
 
