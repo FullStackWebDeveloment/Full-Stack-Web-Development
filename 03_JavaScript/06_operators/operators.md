@@ -90,6 +90,8 @@ console.log(
 );
 ```
 
+**[⬆ Back to Top](#Operators)**
+
 ### Comparison Operators
 
 In programming we compare values, we use comparison operators to compare two values. We check if a value is greater or less or equal to other value.
@@ -137,6 +139,7 @@ JavaScript is somehow a wired kind of programming language. JavaScript code run 
 
 As rule of thumb, if a value is not true with `==` it will not be equal with `===`. Using `===` is safer than using `==`. The following [link](https://dorey.github.io/JavaScript-Equality-Table/) has an exhaustive list of comparison of data types.
 
+**[⬆ Back to Top](#Operators)**
 ### Logical Operators
 
 The following symbols are the common logical operators:
@@ -166,7 +169,7 @@ let isLightOn = true;
 let isLightOff = !isLightOn; // false
 let isMarried = !false; // true
 ```
-
+**[⬆ Back to Top](#Operators)**
 ### Increment Operator
 
 In JavaScript we use the increment operator to increase a value stored in a variable. The increment could be pre or post increment. Let us see each of them:
@@ -189,6 +192,7 @@ console.log(count); // 1
 
 We use most of the time post-increment. At least you should remember how to use post-increment operator.
 
+**[⬆ Back to Top](#Operators)**
 ### Decrement Operator
 
 In JavaScript we use the decrement operator to decrease a value stored in a variable. The decrement could be pre or post decrement. Let us see each of them:
@@ -209,6 +213,7 @@ console.log(count--); // 0
 console.log(count); // -1
 ```
 
+**[⬆ Back to Top](#Operators)**
 ### Ternary Operators
 
 Ternary operator allows to write a condition.
@@ -247,6 +252,8 @@ number > 0
 5 is a positive number
 -5 is a negative number
 ```
+
+**[⬆ Back to Top](#Operators)**
 
 ### Operator Precedence
 Operator precedence determines how operators are parsed concerning each other. Operators with higher precedence become the operands of operators with lower precedence.
@@ -304,3 +311,5 @@ const b = 4 / 3 / 2; // Same as (4 / 3) / 2; evaluates to 0.6666...
 Operators are first grouped by precedence, and then, for adjacent operators that have the same precedence, by associativity. So, when mixing division and exponentiation, the exponentiation always comes before the division. For example, `2 ** 3 / 3 ** 2` results in `0.8888888888888888` because it is the same as `(2 ** 3) / (3 ** 2)`.
 
 I would like to recommend you to read about operator precedence from this [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence)
+
+**[⬆ Back to Top](#Operators)**

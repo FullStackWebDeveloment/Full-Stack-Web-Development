@@ -6,7 +6,7 @@
 
 # Non-Primitive Data Types
 
-- [📔 Object](#-object)
+- [Object](#object)
   - [Creating an empty object](#creating-an-empty-object)
   - [Creating an objecting with values](#creating-an-objecting-with-values)
   - [Getting values from an object](#getting-values-from-an-object)
