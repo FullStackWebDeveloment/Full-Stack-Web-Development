@@ -60,7 +60,7 @@ if (isRaining) {
 
 The same goes for the second condition, if isRaining is false the if block will not be executed and we do not see any output. In order to see the result of a falsy condition, we should have another block, which is going to be _else_.
 
-**[⬆ Back to Top](#Operators)**
+**[⬆ Back to Top](#Conditionals)**
 ### If Else
 
 If condition is true the first block will be executed, if not the else condition will be executed.
@@ -112,7 +112,7 @@ if (isRaining) {
 
 The last condition is false, therefore the else block was executed. What if we have more than two conditions? In that case, we would use _else if_ conditions.
 
-**[⬆ Back to Top](#Operators)**
+**[⬆ Back to Top](#Conditionals)**
 ### If Else if Else
 
 On our daily life, we make decisions on daily basis. We make decisions not by checking one or two conditions instead we make decisions based on multiple conditions. As similar to our daily life, programming is also full of conditions. We use _else if_ when we have multiple conditions.
@@ -156,8 +156,7 @@ if (weather === "rainy") {
   console.log("No need for rain coat.");
 }
 ```
-
-**[⬆ Back to Top](#Operators)**
+**[⬆ Back to Top](#Conditionals)**
 ### Switch
 
 Switch is an alternative for **if else if else else**.
@@ -255,3 +254,4 @@ isRaining
   ? console.log("You need a rain coat.")
   : console.log("No need for a rain coat.");
 ```
+**[⬆ Back to Top](#Conditionals)**
