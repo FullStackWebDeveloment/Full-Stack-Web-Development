@@ -10,4 +10,5 @@
 |  06  |                    [Operators](./06_operators/operators.md)                     |
 |  07  |                [Conditionals](./07_conditionals/conditionals.md)                |
 |  08  |                          [Loops](./08_loops/loops.md)                           |
-|  08  |                        [Functions](./08_loops/loops.md)                         |
+|  09  |                    [Functions](./09_functions/functions.md)                     |
+|  10  |       [Higher Order Functions](./10_higher_order_functions/higher_order_functions.md)        |

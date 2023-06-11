@@ -2,7 +2,7 @@
   <h1>JavaScript</h1>
 </div>
 
-[<< Loops](../08_loops/loops.md) | [Functions >>](../09_functions/functions.md)
+[<< Loops](../08_loops/loops.md) | [Higher Order Functions >>](../10_higher_order_functions/higher_order_functions.md)
 
 # Functions
 
