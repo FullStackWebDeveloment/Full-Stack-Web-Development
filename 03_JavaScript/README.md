@@ -9,4 +9,5 @@
 |  05  | [Non-Primitive Data Types](./05_nonPrimitiveDataTypes/nonPrimitiveDataTypes.md) |
 |  06  |                    [Operators](./06_operators/operators.md)                     |
 |  07  |                [Conditionals](./07_conditionals/conditionals.md)                |
-|  08  |                       [Loops](./08_loops/loops.md)                       |
+|  08  |                          [Loops](./08_loops/loops.md)                           |
+|  08  |                        [Functions](./08_loops/loops.md)                         |

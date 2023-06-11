@@ -2,7 +2,7 @@
   <h1>JavaScript</h1>
 </div>
 
-[<< Conditionals](../07_conditionals/conditionals.md) | [Conditionals >>]()
+[<< Conditionals](../07_conditionals/conditionals.md) | [Functions >>](../09_functions/functions.md)
 
 # Loops
 
