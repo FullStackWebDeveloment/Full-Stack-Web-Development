@@ -1,7 +1,7 @@
 # JavaScript
 
-## “Programming isn’t about what you know, it’s about what you can figure out.”
-                                                                    #### Chris Pine.
+## “Programming isn’t about what you know, it’s about what you can figure out.” - Chris Pine.
+   
 | S.No |                                     Topics                                      |
 | :--: | :-----------------------------------------------------------------------------: |
 |  01  |                           [Introduction](./README.md)                           |
