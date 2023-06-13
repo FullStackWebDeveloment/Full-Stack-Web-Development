@@ -14,5 +14,5 @@
 |  08  |                              [Loops](./08_loops/loops.md)                               |
 |  09  |                        [Functions](./09_functions/functions.md)                         |
 |  10  |     [Higher Order Functions](./10_higher_order_functions/higher_order_functions.md)     |
-|  11  | [Destructuring and Spreading](../11_destructuring_spreading/destructuring_spreading.md) |
-|  12  | [Regular Expressions](../12_regular_expressions/regular_expressions.md) |
+|  11  | [Destructuring and Spreading](./11_destructuring_spreading/destructuring_spreading.md) |
+|  12  | [Regular Expressions](./12_regular_expressions/regular_expressions.md) |
