@@ -2,7 +2,7 @@
   <h1>JavaScript</h1>
 </div>
 
-[<< Functions](../09_functions/functions.md) | [Destructuring Spreading >>](../11_destructuring_spreading/destructuring_spreading.md)
+[<< Higher Order Functions](../10_higher_order_functions/higher_order_functions.md)| [Regular Expressions >>](../12_regular_expressions/regular_expressions.md)
 
 # Destructuring and Spread
 
@@ -506,6 +506,6 @@ console.log(sumAllNums(1, 2, 3, 4, 5));
 ```
 
 
-[Next >> Destructuring Spreading >>](../11_destructuring_spreading/destructuring_spreading.md)
+[Next >> Regular Expressions >>](../12_regular_expressions/regular_expressions.md)
 
 
