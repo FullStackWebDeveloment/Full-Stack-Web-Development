@@ -16,5 +16,5 @@
 |  10  |    [Higher Order Functions](./10_higher_order_functions/higher_order_functions.md)     |
 |  11  | [Destructuring and Spreading](./11_destructuring_spreading/destructuring_spreading.md) |
 |  12  |         [Regular Expressions](./12_regular_expressions/regular_expressions.md)         |
-|  13  |  [Console Object Methods](../13_console_object_methods.md/console_object_methods.md)   |
-|  14  |                [Error Handling](../14_error_handling/error_handling.md)                |
+|  13  |  [Console Object Methods](./13_console_object_methods.md/console_object_methods.md)   |
+|  14  |                [Error Handling](./14_error_handling/error_handling.md)                |
