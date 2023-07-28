@@ -2,7 +2,7 @@
   <h1>JavaScript</h1>
 </div>
 
-[<< Console Object Methods](../13_console_object_methods/console_object_methods.md) | [Day 15>>](../15_classes/classes.md)
+[<< Console Object Methods](../13_console_object_methods/console_object_methods.md) | [Promises >>](../15_promises/promises.md)
 
 # Error Handling
 
@@ -169,4 +169,4 @@ Practice
 
 Practice
 
-[<< Console Object Methods](../13_Day_Console_object_methods/console_object_methods.md) | [Day 15>>](../15_Day_Classes/15_day_classes.md)
+[<< Console Object Methods](../13_console_object_methods/console_object_methods.md) | [Promises >>](../15_promises/promises.md)
