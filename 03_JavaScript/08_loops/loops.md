@@ -215,6 +215,8 @@ const person = {
   isMarried: false,
 };
 
+let value = "";
+
 for (const key in person) {
    value += person[key] + " ";
 }
