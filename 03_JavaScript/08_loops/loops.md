@@ -10,6 +10,7 @@
 - [while loop](#while-loop)
 - [do while loop](#do-while-loop)
 - [for of loop](#for-of-loop)
+- [for in loop](#for-in-loop)
 - [break](#break)
 - [continue](#continue)
 
@@ -191,6 +192,34 @@ for (const country of countries) {
 }
 
 console.log(newArr); // ["FINLAND", "SWEDEN", "NORWAY", "DENMARK", "ICELAND"]
+```
+
+
+### for in loop
+
+The for...in statement iterates over all enumerable string properties of an object (ignoring properties keyed by symbols), including inherited enumerable properties.
+
+```js
+for (variable in object){
+  statement
+}
+```
+
+```js
+const person = {
+  firstName: "Sathish",
+  lastName: "Sampath",
+  age: 25,
+  country: "India",
+  city: "Chennai",
+  isMarried: false,
+};
+
+for (const key in person) {
+   value += person[key] + " ";
+}
+
+// Sathish Sampath 25 India Chennai false 
 ```
 
 ### break
